@@ -1,0 +1,28 @@
+header {
+  ul {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    margin: 25px 0;
+
+    li:nth-child(odd) {
+      font-weight: 400;
+      font-size: 15px;
+    }
+
+    li:nth-child(even) {
+      position: absolute;
+      transform: translate(-50%, 0);
+      left: 50%;
+      font-weight: bold;
+      font-size: 25px; 
+
+      &:after {
+        position: absolute;
+        content: '.';
+      }
+    }
+  }
+}
