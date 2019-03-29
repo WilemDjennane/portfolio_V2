@@ -51,7 +51,7 @@ header {
     li {
       font-weight: 400;
       @include breakpoint(desktop) {
-        font-size: 1em;
+        font-size: 1.2em;
         margin: 0 15px;
       }
     }
