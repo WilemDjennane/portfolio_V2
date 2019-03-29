@@ -91,7 +91,7 @@ body {
       height: 67px;
 
       @include breakpoint(desktop) {
-        width: 40.63rem;
+        width: 80%;
         height: auto;
 
         .title_svg {
