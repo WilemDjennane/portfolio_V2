@@ -79,6 +79,12 @@ body {
         font-size: 22px;
 
       }
+
+      @include breakpoint(desktop) {
+        span {
+          font-size: 1.3em;
+        }
+      }
     }
 
     .project__content {

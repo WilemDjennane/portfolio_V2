@@ -19,7 +19,7 @@ header {
 
     li {
       font-weight: bold;
-      font-size: 25px;
+      font-size: 2em;
 
       &:after {
         position: absolute;
@@ -51,45 +51,9 @@ header {
     li {
       font-weight: 400;
       @include breakpoint(desktop) {
+        font-size: 1em;
         margin: 0 15px;
       }
     }
   }
-
-  // ul {
-  //   position: relative;
-  //   display: flex;
-  //   justify-content: space-between;
-  //   align-items: center;
-  //   padding: 0 5%;
-  //   margin: 25px 0;
-
-  //   @include breakpoint(desktop) {
-  //     justify-content: flex-end;
-
-  //     li:last-child {
-  //       margin: 0 1% 0 20px;
-  //     }
-  //   }
-
-
-  //   li:nth-child(even) {
-  //     position: absolute;
-  //     transform: translate(-50%, 0);
-  //     left: 50%;
-  //     font-weight: bold;
-  //     font-size: 25px;
-
-  //     @include breakpoint(desktop) {
-  //       left: 10%;
-  //     }
-  //   }
-  // }
-
-  // @include breakpoint(desktop) {
-  //   li:nth-child(2) {
-  //     position: initial;
-  //     order: 0;
-  //   }
-  // }
 }
